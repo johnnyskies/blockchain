@@ -1,0 +1,31 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "creating a blockchain from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch -e js dev/api.js"
+  },
+  "author": "Johnny",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnyskies/blockchain.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "bugs": {
+    "url": "https://github.com/johnnyskies/blockchain/issues"
+  },
+  "homepage": "https://github.com/johnnyskies/blockchain#readme"
+}
